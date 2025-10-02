@@ -37,7 +37,6 @@ requirements:
     - r-readr
     - r-rmarkdown
     - r-tibble
-    - r-xfun >=0.44
   run:
     - r-base
     - r-dbi
@@ -49,7 +48,6 @@ requirements:
     - r-readr
     - r-rmarkdown
     - r-tibble
-    - r-xfun >=0.44
 
 test:
   commands:
