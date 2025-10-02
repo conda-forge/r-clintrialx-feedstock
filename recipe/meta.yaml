@@ -12,7 +12,7 @@ source:
   sha256: 5129df3c1a4cd1bce209944f7bccdcfaae071eeb83358649158168beb8f081ab
 
 build:
-  number: 0
+  number: 1
   noarch: generic
   rpaths:
     - lib/R/lib/
@@ -37,7 +37,6 @@ requirements:
     - r-readr
     - r-rmarkdown
     - r-tibble
-    - r-xfun >=0.44
   run:
     - r-base
     - r-dbi
@@ -49,7 +48,6 @@ requirements:
     - r-readr
     - r-rmarkdown
     - r-tibble
-    - r-xfun >=0.44
 
 test:
   commands:
